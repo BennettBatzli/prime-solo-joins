@@ -34,7 +34,7 @@ FROM customers
 JOIN addresses ON customers.id = addresses.customer_id
 JOIN orders ON addresses.id = orders.address_id
 GROUP BY customers.first_name, customers.last_name;
---GET SUMS
+
 
 
 
